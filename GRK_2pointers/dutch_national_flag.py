@@ -1,4 +1,4 @@
-class Solution: 
+class Solution: # O(N) Time and O(1) Space 
     def sort(self, arr): 
         # Need to inplace sorting given an array of 0's, 1's, and 2's
         # Initialize a left and right pointer (left to keep track of where 0's should go) and right for the 2's 
