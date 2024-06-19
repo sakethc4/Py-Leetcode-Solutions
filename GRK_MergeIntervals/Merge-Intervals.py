@@ -25,5 +25,6 @@ class Solution:
                 end = interval.end 
         # Need to account for the last interval. 
                 merged.append(Interval(start, end))
-                return merged
+                
+        return merged
             
