@@ -1,4 +1,4 @@
-class Solution:
+class Solution: # O(N)^2 Time and O(1) Space 
     def loopExists(self, arr):
         # Input: [1, 2, -1, 2, 2]
         #         0 -> 1 -> 3 -> 0 
@@ -28,7 +28,7 @@ class Solution:
             if slow != -1 and slow == fast: 
                     return True 
                 
-            return False 
+        return False 
             # I'll create a helper function to determine the next index we move to. 
     def findNextIndex(self, arr, isForward, index):
         currentDirection = arr[index] >= 0
